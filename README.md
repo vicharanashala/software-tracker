@@ -16,6 +16,14 @@ npm install
 npm run dev
 ```
 
+In a second terminal, for the web page:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+Then open http://localhost:5173 and sign in with any email, picking the role "leader" if you want to create projects.
+
 Login is fake for now, you just pass your email in a header:
 ```bash
 curl -X POST localhost:4000/projects \
